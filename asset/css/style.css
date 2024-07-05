@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to bottom, yellow, rgb(184, 184, 184));
+  background-repeat: no-repeat;
+}
+
+/* .tab {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  bottom: -25px;
+  left: 0;
+  right: 0;
+  white-space: nowrap;
+  overflow: scroll;
+}
+
+.tab-wrapper {
+  width: 100%;
+  height: 50px;
+  overflow: scroll;
+  white-space: nowrap;
+  position: relative;
+}
+
+.content-wrapper {
+  width: 350px;
+  height: 50px;
+  margin: 0 auto;
+  position: relative;
+} */
