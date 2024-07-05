@@ -1,0 +1,58 @@
+/* profil */
+main {
+  margin-top: 70px;
+  background-color: white;
+  height: 100%;
+}
+
+header {
+    background-color: yellow;
+}
+
+.akun {
+  height: 150px;
+}
+
+.foto {
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.foto img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-top: 40px;
+}
+
+.nama,
+.email {
+  text-align: center;
+  margin-top: 4px;
+}
+
+.nama {
+  font-size: 25px;
+}
+
+.email {
+  font-size: 15px;
+  color: gray;
+}
+
+.tombol {
+  display: flex;
+  justify-content: center;
+  /* margin-top: px; */
+}
+
+.btn {
+  background-color: rgb(239, 232, 232);
+  color: purple;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1), 0px 4px 8px rgba(0, 0, 0, 0.2);
+  width: 80px;
+  height: 40px;
+  border: none;
+  border-radius: 40%;
+}
