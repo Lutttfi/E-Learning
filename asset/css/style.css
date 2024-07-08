@@ -9,31 +9,16 @@ body {
   background-repeat: no-repeat;
 }
 
-/* .tab {
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  top: 0;
-  bottom: -25px;
-  left: 0;
-  right: 0;
-  white-space: nowrap;
-  overflow: scroll;
+.nav-link {
+  border-bottom: 2px solid transparent;
 }
-
-.tab-wrapper {
-  width: 100%;
-  height: 50px;
-  overflow: scroll;
-  white-space: nowrap;
-  position: relative;
+.nav-link.active {
+  border-bottom: 2px solid #cfa81b;
 }
-
-.content-wrapper {
-  width: 350px;
-  height: 50px;
-  margin: 0 auto;
-  position: relative;
-} */
-
-
+#myTab {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+#myTab::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}

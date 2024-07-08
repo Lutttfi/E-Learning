@@ -157,56 +157,67 @@
         <a href="filter.html" class="text-decoration-none text-dark"
           ><div class="d-flex justify-content-between align-items-center p-3">
             <div class="text">
-              <p class="m-0 fs-3 fw-500">Program Studi</p>
+              <p class="m-0 fs-4 fw-500">Program Studi</p>
               <p class="m-0">PROFESI APOTEKER</p>
             </div>
             <div class="see-all">
               <i class="fa-solid fa-angle-right fa-lg"></i>
             </div></div
         ></a>
+
         <div class="tabs m-2'">
-          <div class="content-wrapper">
-            <div class="tab-wrapper">
-              <ul class="nav nav-underline tab" id="myTab" role="tablist">
-                <li class="nav-item" role="presentation">
-                  <button
-                    class="nav-link active"
-                    id="home-tab"
-                    data-bs-toggle="tab"
-                    data-bs-target="#home-tab-pane"
-                    type="button"
-                    role="tab"
-                    aria-controls="home-tab-pane"
-                    aria-selected="true"
-                    style="color: #cfa81b"
-                  >
-                    BUKU 1000 SOAL
-                  </button>
-                </li>
-                <li class="nav-item" role="presentation">
-                  <button
-                    class="nav-link"
-                    id="profile-tab"
-                    data-bs-toggle="tab"
-                    data-bs-target="#profile-tab-pane"
-                    type="button"
-                    role="tab"
-                    aria-controls="profile-tab-pane"
-                    aria-selected="false"
-                    style="color: #cfa81b"
-                  >
-                    BUKU MATERI
-                  </button>
-                </li>
-              </ul>
-            </div>
+          <div
+            class="gap-3 mx-3"
+            id="myTab"
+            role="tablist"
+            style="overflow-x: auto; white-space: nowrap; display: flex"
+          >
+            <button
+              class="nav-link active"
+              id="home-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#buku-1000-soal"
+              type="button"
+              role="tab"
+              aria-controls="buku-1000-soal"
+              aria-selected="true"
+              style="color: #cfa81b"
+            >
+              BUKU 1000 SOAL
+            </button>
+            <button
+              class="nav-link"
+              id="profile-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#buku-materi"
+              type="button"
+              role="tab"
+              aria-controls="buku-materi"
+              aria-selected="false"
+              style="color: #cfa81b"
+            >
+              BUKU MATERI
+            </button>
+            <button
+              class="nav-link"
+              id="contact-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#buku-praktek"
+              type="button"
+              role="tab"
+              aria-controls="buku-praktek"
+              aria-selected="false"
+              style="color: #cfa81b"
+            >
+              BUKU PRAKTEK
+            </button>
           </div>
           <div class="tab-content" id="myTabContent">
             <div
               class="tab-pane fade show active"
-              id="home-tab-pane"
+              id="buku-1000-soal"
               role="tabpanel"
-              aria-labelledby="home-tab"
+              aria-labelledby="buku-1000-soal"
               tabindex="0"
             >
               <div class="my-4 overflow-scroll" style="height: 300px">
@@ -350,9 +361,9 @@
 
             <div
               class="tab-pane fade"
-              id="profile-tab-pane"
+              id="buku-materi"
               role="tabpanel"
-              aria-labelledby="profile-tab"
+              aria-labelledby="buku-materi"
               tabindex="0"
             >
               <div class="my-4 overflow-scroll" style="height: 300px">
@@ -488,6 +499,152 @@
                       <i class="fa-solid fa-book fa-2xl"></i>
                       <br />
                       <p class="text-black">Buku Materi 10</p>
+                    </div></a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="tab-pane fade"
+              id="buku-praktek"
+              role="tabpanel"
+              aria-labelledby="buku-praktek"
+              tabindex="0"
+            >
+              <div class="my-4 overflow-scroll" style="height: 300px">
+                <div class="row my-4">
+                  <a
+                    href="materi.html"
+                    class="col text-decoration-none materi"
+                    style="color: darkgray"
+                    ><div
+                      class="book d-flex flex-column justify-content-center align-items-center"
+                    >
+                      <i class="fa-solid fa-book fa-2xl"></i>
+                      <br />
+                      <p class="text-black">Buku Praktek 1</p>
+                    </div></a
+                  >
+
+                  <a
+                    href="materi.html"
+                    class="col text-decoration-none materi"
+                    style="color: darkgray"
+                    ><div
+                      class="book d-flex flex-column justify-content-center align-items-center"
+                    >
+                      <i class="fa-solid fa-book fa-2xl"></i>
+                      <br />
+                      <p class="text-black">Buku Praktek 2</p>
+                    </div></a
+                  >
+                </div>
+                <div class="row my-4">
+                  <a
+                    href="materi.html"
+                    class="col text-decoration-none materi"
+                    style="color: darkgray"
+                    ><div
+                      class="book d-flex flex-column justify-content-center align-items-center"
+                    >
+                      <i class="fa-solid fa-book fa-2xl"></i>
+                      <br />
+                      <p class="text-black">Buku Praktek 3</p>
+                    </div></a
+                  >
+
+                  <a
+                    href="materi.html"
+                    class="col text-decoration-none materi"
+                    style="color: darkgray"
+                    ><div
+                      class="book d-flex flex-column justify-content-center align-items-center"
+                    >
+                      <i class="fa-solid fa-book fa-2xl"></i>
+                      <br />
+                      <p class="text-black">Buku Praktek 4</p>
+                    </div></a
+                  >
+                </div>
+                <div class="row my-4">
+                  <a
+                    href="materi.html"
+                    class="col text-decoration-none materi"
+                    style="color: darkgray"
+                    ><div
+                      class="book d-flex flex-column justify-content-center align-items-center"
+                    >
+                      <i class="fa-solid fa-book fa-2xl"></i>
+                      <br />
+                      <p class="text-black">Buku Praktek 5</p>
+                    </div></a
+                  >
+
+                  <a
+                    href="materi.html"
+                    class="col text-decoration-none materi"
+                    style="color: darkgray"
+                    ><div
+                      class="book d-flex flex-column justify-content-center align-items-center"
+                    >
+                      <i class="fa-solid fa-book fa-2xl"></i>
+                      <br />
+                      <p class="text-black">Buku Praktek 6</p>
+                    </div></a
+                  >
+                </div>
+                <div class="row my-4">
+                  <a
+                    href="materi.html"
+                    class="col text-decoration-none materi"
+                    style="color: darkgray"
+                    ><div
+                      class="book d-flex flex-column justify-content-center align-items-center"
+                    >
+                      <i class="fa-solid fa-book fa-2xl"></i>
+                      <br />
+                      <p class="text-black">Buku Praktek 7</p>
+                    </div></a
+                  >
+
+                  <a
+                    href="materi.html"
+                    class="col text-decoration-none materi"
+                    style="color: darkgray"
+                    ><div
+                      class="book d-flex flex-column justify-content-center align-items-center"
+                    >
+                      <i class="fa-solid fa-book fa-2xl"></i>
+                      <br />
+                      <p class="text-black">Buku Praktek 8</p>
+                    </div></a
+                  >
+                </div>
+                <div class="row my-4">
+                  <a
+                    href="materi.html"
+                    class="col text-decoration-none materi"
+                    style="color: darkgray"
+                    ><div
+                      class="book d-flex flex-column justify-content-center align-items-center"
+                    >
+                      <i class="fa-solid fa-book fa-2xl"></i>
+                      <br />
+                      <p class="text-black">Buku Praktek 9</p>
+                    </div></a
+                  >
+
+                  <a
+                    href="materi.html"
+                    class="col text-decoration-none materi"
+                    style="color: darkgray"
+                    ><div
+                      class="book d-flex flex-column justify-content-center align-items-center"
+                    >
+                      <i class="fa-solid fa-book fa-2xl"></i>
+                      <br />
+                      <p class="text-black">Buku Praktek 10</p>
                     </div></a
                   >
                 </div>
