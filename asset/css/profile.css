@@ -14,16 +14,31 @@ header {
 }
 
 .foto {
+  /* position: relative; */
   display: flex;
   justify-content: center;
+  align-items: end;
   border-radius: 50%;
+  margin-top: 50px;
+}
+
+.gambar {
+  position: relative;
+}
+
+.gambar i {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: white;
+  /* border-radius: 50%; */
 }
 
 .foto img {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  margin-top: 40px;
+  /* margin-top: 40px; */
 }
 
 .nama,
