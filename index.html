@@ -11,6 +11,21 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <style>
+      .nav-link {
+        border-bottom: 2px solid transparent;
+      }
+      .nav-link.active {
+        border-bottom: 2px solid #cfa81b;
+      }
+      #myTab {
+        -ms-overflow-style: none; /* IE and Edge */
+        scrollbar-width: none; /* Firefox */
+      }
+      #myTab::-webkit-scrollbar {
+        display: none; /* Chrome, Safari, Opera */
+      }
+    </style>
   </head>
   <body>
     <nav
@@ -211,7 +226,34 @@
             >
               BUKU PRAKTEK
             </button>
+            <button
+              class="nav-link"
+              id="contact-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#soal-soal"
+              type="button"
+              role="tab"
+              aria-controls="soal-soal"
+              aria-selected="false"
+              style="color: #cfa81b"
+            >
+              SOAL - SOAL
+            </button>
+            <button
+              class="nav-link"
+              id="contact-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#buku-latihan-ujian"
+              type="button"
+              role="tab"
+              aria-controls="buku-latihan-ujian"
+              aria-selected="false"
+              style="color: #cfa81b"
+            >
+              LATIHAN
+            </button>
           </div>
+          <!-- ISI BUKU BUKU -->
           <div class="tab-content" id="myTabContent">
             <div
               class="tab-pane fade show active"
@@ -313,46 +355,6 @@
                       <i class="fa-solid fa-book fa-2xl"></i>
                       <br />
                       <p class="text-black">Latihan Mandiri 7</p>
-                    </div></a
-                  >
-
-                  <a
-                    href="materi.html"
-                    class="col text-decoration-none materi"
-                    style="color: darkgray"
-                    ><div
-                      class="book d-flex flex-column justify-content-center align-items-center"
-                    >
-                      <i class="fa-solid fa-book fa-2xl"></i>
-                      <br />
-                      <p class="text-black">Latihan Mandiri 8</p>
-                    </div></a
-                  >
-                </div>
-                <div class="row my-4">
-                  <a
-                    href="materi.html"
-                    class="col text-decoration-none materi"
-                    style="color: darkgray"
-                    ><div
-                      class="book d-flex flex-column justify-content-center align-items-center"
-                    >
-                      <i class="fa-solid fa-book fa-2xl"></i>
-                      <br />
-                      <p class="text-black">Latihan Mandiri 9</p>
-                    </div></a
-                  >
-
-                  <a
-                    href="materi.html"
-                    class="col text-decoration-none materi"
-                    style="color: darkgray"
-                    ><div
-                      class="book d-flex flex-column justify-content-center align-items-center"
-                    >
-                      <i class="fa-solid fa-book fa-2xl"></i>
-                      <br />
-                      <p class="text-black">Latihan Mandiri 10</p>
                     </div></a
                   >
                 </div>
@@ -488,19 +490,6 @@
                       <p class="text-black">Buku Materi 9</p>
                     </div></a
                   >
-
-                  <a
-                    href="materi.html"
-                    class="col text-decoration-none materi"
-                    style="color: darkgray"
-                    ><div
-                      class="book d-flex flex-column justify-content-center align-items-center"
-                    >
-                      <i class="fa-solid fa-book fa-2xl"></i>
-                      <br />
-                      <p class="text-black">Buku Materi 10</p>
-                    </div></a
-                  >
                 </div>
               </div>
             </div>
@@ -607,6 +596,30 @@
                       <p class="text-black">Buku Praktek 7</p>
                     </div></a
                   >
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="soal-soal"
+              role="tabpanel"
+              aria-labelledby="soal-soal"
+              tabindex="0"
+            >
+              <div class="my-4 overflow-scroll" style="height: 300px">
+                <div class="row my-4">
+                  <a
+                    href="materi.html"
+                    class="col text-decoration-none materi"
+                    style="color: darkgray"
+                    ><div
+                      class="book d-flex flex-column justify-content-center align-items-center"
+                    >
+                      <i class="fa-solid fa-book fa-2xl"></i>
+                      <br />
+                      <p class="text-black">Soal - Soal 1</p>
+                    </div></a
+                  >
 
                   <a
                     href="materi.html"
@@ -617,7 +630,7 @@
                     >
                       <i class="fa-solid fa-book fa-2xl"></i>
                       <br />
-                      <p class="text-black">Buku Praktek 8</p>
+                      <p class="text-black">Soal - Soal 2</p>
                     </div></a
                   >
                 </div>
@@ -631,7 +644,7 @@
                     >
                       <i class="fa-solid fa-book fa-2xl"></i>
                       <br />
-                      <p class="text-black">Buku Praktek 9</p>
+                      <p class="text-black">Soal - Soal 3</p>
                     </div></a
                   >
 
@@ -644,8 +657,156 @@
                     >
                       <i class="fa-solid fa-book fa-2xl"></i>
                       <br />
-                      <p class="text-black">Buku Praktek 10</p>
+                      <p class="text-black">Soal - Soal 4</p>
                     </div></a
+                  >
+                </div>
+                <div class="row my-4">
+                  <a
+                    href="materi.html"
+                    class="col text-decoration-none materi"
+                    style="color: darkgray"
+                    ><div
+                      class="book d-flex flex-column justify-content-center align-items-center"
+                    >
+                      <i class="fa-solid fa-book fa-2xl"></i>
+                      <br />
+                      <p class="text-black">Soal - Soal 5</p>
+                    </div></a
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="buku-latihan-ujian"
+              role="tabpanel"
+              aria-labelledby="buku-latihan-ujian"
+              tabindex="0"
+            >
+              <div class="my-4 overflow-scroll" style="height: 300px">
+                <div class="row my-4">
+                  <a
+                    href="materi.html"
+                    class="col text-decoration-none materi"
+                    style="color: darkgray"
+                    ><div
+                      class="book d-flex flex-column justify-content-center align-items-center"
+                    >
+                      <i class="fa-solid fa-book fa-2xl"></i>
+                      <br />
+                      <p class="text-black">Buku Latihan 1</p>
+                    </div></a
+                  >
+
+                  <a
+                    href="materi.html"
+                    class="col text-decoration-none materi"
+                    style="color: darkgray"
+                    ><div
+                      class="book d-flex flex-column justify-content-center align-items-center"
+                    >
+                      <i class="fa-solid fa-book fa-2xl"></i>
+                      <br />
+                      <p class="text-black">Buku Latihan 2</p>
+                    </div></a
+                  >
+                </div>
+                <div class="row my-4">
+                  <a
+                    href="materi.html"
+                    class="col text-decoration-none materi"
+                    style="color: darkgray"
+                    ><div
+                      class="book d-flex flex-column justify-content-center align-items-center"
+                    >
+                      <i class="fa-solid fa-book fa-2xl"></i>
+                      <br />
+                      <p class="text-black">Buku Latihan 3</p>
+                    </div></a
+                  >
+
+                  <a
+                    href="materi.html"
+                    class="col text-decoration-none materi"
+                    style="color: darkgray"
+                    ><div
+                      class="book d-flex flex-column justify-content-center align-items-center"
+                    >
+                      <i class="fa-solid fa-book fa-2xl"></i>
+                      <br />
+                      <p class="text-black">Buku Latihan 4</p>
+                    </div></a
+                  >
+                </div>
+                <div class="row my-4">
+                  <a
+                    href="materi.html"
+                    class="col text-decoration-none materi"
+                    style="color: darkgray"
+                    ><div
+                      class="book d-flex flex-column justify-content-center align-items-center"
+                    >
+                      <i class="fa-solid fa-book fa-2xl"></i>
+                      <br />
+                      <p class="text-black">Buku Latihan 5</p>
+                    </div></a
+                  >
+
+                  <a
+                    href="materi.html"
+                    class="col text-decoration-none materi"
+                    style="color: darkgray"
+                    ><div
+                      class="book d-flex flex-column justify-content-center align-items-center"
+                    >
+                      <i class="fa-solid fa-book fa-2xl"></i>
+                      <br />
+                      <p class="text-black">Buku Latihan 6</p>
+                    </div></a
+                  >
+                </div>
+                <div class="row my-4">
+                  <a
+                    href="materi.html"
+                    class="col text-decoration-none materi"
+                    style="color: darkgray"
+                    ><div
+                      class="book d-flex flex-column justify-content-center align-items-center"
+                    >
+                      <i class="fa-solid fa-book fa-2xl"></i>
+                      <br />
+                      <p class="text-black">Buku Latihan 7</p>
+                    </div></a
+                  >
+
+                  <a
+                    href="materi.html"
+                    class="col text-decoration-none materi"
+                    style="color: darkgray"
+                    ><div
+                      class="book d-flex flex-column justify-content-center align-items-center"
+                    >
+                      <i class="fa-solid fa-book fa-2xl"></i>
+                      <br />
+                      <p class="text-black">Buku Latihan 8</p>
+                    </div></a
+                  >
+                </div>
+                <div class="row my-4">
+                  <a
+                    href="materi.html"
+                    class="col text-decoration-none materi"
+                    style="color: darkgray"
+                    ><div
+                      class="book d-flex flex-column justify-content-center align-items-center"
+                    >
+                      <i class="fa-solid fa-book fa-2xl"></i>
+                      <br />
+                      <p class="text-black">Buku Latihan 9</p>
+                    </div></a
+                  >
+
                   >
                 </div>
               </div>
@@ -655,6 +816,7 @@
       </div>
     </main>
 
+    <script src="asset/js/script.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
