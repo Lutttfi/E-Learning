@@ -1,4 +1,8 @@
 /* profil */
+* {
+  font-family: "DM Sans", sans-serif;
+}
+
 main {
   margin-top: 70px;
   background-color: white;

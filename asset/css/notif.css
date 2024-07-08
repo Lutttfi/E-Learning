@@ -5,6 +5,10 @@
   padding: 20px 15px;
   color: #020202;
 } */
+* {
+  font-family: "DM Sans", sans-serif;
+}
+
 header {
     background-color: yellow;
 }
@@ -17,7 +21,6 @@ header {
 }
 
 .list-group-item {
-  font-family: Verdana, sans-serif;
   font-size: 10px;
   padding: 10px 15px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
