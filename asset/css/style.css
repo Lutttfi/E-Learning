@@ -66,12 +66,12 @@ nav {
 
 @media (min-width: 1025px) {
   .image img {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
   }
 
   .name {
-    font-size: 36px;
+    font-size: 24px;
   }
 
   /* .progress {
@@ -79,7 +79,7 @@ nav {
   } */
 
   .point {
-    font-size: 36px;
+    font-size: 24px;
     margin-top: 15px;
   }
 
@@ -92,11 +92,11 @@ nav {
   }
 
   .text p:first-child {
-    font-size: 52px;
+    font-size: 36px;
   }
 
   .text p:last-child {
-    font-size: 42px;
+    font-size: 24px;
   }
 
   #mytab {
@@ -104,11 +104,11 @@ nav {
   }
 
   .book p {
-    font-size: 36px;
+    font-size: 24px;
   }
 
   button p {
-    font-size: 36px;
+    font-size: 24px;
   }
 
   nav div a {

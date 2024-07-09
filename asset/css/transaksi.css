@@ -123,23 +123,38 @@ a.btn.rounded-pill {
 
 @media (min-width: 1025px) {
   main {
-    margin: 6% 0;
+    margin: 7em 0;
+  }
+
+  header {
+    height: 100px;
+  }
+  .teks {
+    padding: 15px 10px;
+    font-size: 30px;
+  }
+  .icon {
+    font-size: 25px;
   }
 
   p {
-    font-size: 36px;
+    font-size: 24px;
   }
 
   .t-h {
-    font-size: 42px;
+    font-size: 32px;
+  }
+
+  .main {
+    margin: 7em 10px 5px 10px;
   }
 
   a.btn.rounded-pill {
-    font-size: 36px;
+    font-size: 24px;
   }
 
   p.profesi {
-    font-size: 50px;
+    font-size: 36px;
   }
 
   nav div a {
@@ -147,7 +162,7 @@ a.btn.rounded-pill {
   }
 
   button.btn-offcanvas p {
-    font-size: 36px;
+    font-size: 24px;
     margin-bottom: 0;
   }
 }

@@ -94,7 +94,9 @@ header {
   }
   .btn {
     width: 130px;
-    height: 70px;
+  }
+  nav div a {
+    font-size: 24px;
   }
 }
 @media (min-width: 1440px) {
@@ -115,7 +117,6 @@ header {
   }
   .btn {
     width: 140px;
-    height: 70px;
   }
   nav div a {
     font-size: 24px;
