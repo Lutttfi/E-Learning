@@ -23,3 +23,95 @@ body {
 #myTab::-webkit-scrollbar {
   display: none; /* Chrome, Safari, Opera */
 }
+
+nav {
+  z-index: 5;
+}
+
+.carousel {
+  margin: 15%;
+}
+
+/* .progress {
+  height: 5px;
+} */
+
+@media (max-width: 768px) {
+  .carousel {
+    margin: 10% 15%;
+  }
+
+  .text p:first-child{
+    font-size: 24px;
+  }
+
+  .text p:last-child {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .carousel {
+    margin: 5% 15%;
+  }
+
+  .text p:first-child{
+    font-size: 24px;
+  }
+
+  .text p:last-child {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .image img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .name {
+    font-size: 36px;
+  }
+
+  /* .progress {
+    height: 5px;
+  } */
+
+  .point {
+    font-size: 36px;
+    margin-top: 15px;
+  }
+
+  .exp {
+    margin-top: 15px;
+  }
+
+  .carousel {
+    margin: 5% 15%;
+  }
+
+  .text p:first-child{
+    font-size: 52px;
+  }
+
+  .text p:last-child {
+    font-size: 42px;
+  }
+
+  #mytab {
+    font-size: 36px;
+  }
+
+  .book p {
+    font-size: 36px;
+  }
+
+  button p {
+    font-size: 36px;
+  }
+
+  nav div a {
+    font-size: 24px;
+  }
+}
