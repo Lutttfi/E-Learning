@@ -6,7 +6,7 @@
 }
 
 body {
-  background: linear-gradient(to bottom, yellow, rgb(184, 184, 184));
+  background: linear-gradient(to bottom, yellow, #d3d3d3);
   background-repeat: no-repeat;
 }
 

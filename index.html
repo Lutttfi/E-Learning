@@ -172,8 +172,8 @@
 
     <main>
       <div
-        class="w-90 h-100 bg-white p-1"
-        style="border-radius: 30px 30px 1px 1px"
+        class="h-100 bg-white p-1"
+        style="border-radius: 30px 30px 1px 1px; width: 95%; margin: auto"
       >
         <a href="filter.html" class="text-decoration-none text-dark"
           ><div class="d-flex justify-content-between align-items-center p-3">
@@ -187,72 +187,79 @@
         ></a>
 
         <div class="tabs m-2'">
-          <div
-            class="gap-3 mx-3"
-            id="myTab"
-            role="tablist"
-            style="overflow-x: auto; white-space: nowrap; display: flex"
-          >
-            <button
-              class="nav-link active"
-              id="home-tab"
-              data-bs-toggle="tab"
-              data-bs-target="#buku-1000-soal"
-              type="button"
-              role="tab"
-              aria-controls="buku-1000-soal"
-              aria-selected="true"
+          <div class="mx-3" style="border-bottom: 1px solid gray;">
+            <div
+              class="gap-3 mx-5"
+              id="myTab"
+              role="tablist"
+              style="
+                overflow-x: auto;
+                white-space: nowrap;
+                display: flex;
+                
+              "
             >
-              <p>BUKU 1000 SOAL</p>
-            </button>
-            <button
-              class="nav-link"
-              id="profile-tab"
-              data-bs-toggle="tab"
-              data-bs-target="#buku-materi"
-              type="button"
-              role="tab"
-              aria-controls="buku-materi"
-              aria-selected="false"
-            >
-              <p>BUKU MATERI</p>
-            </button>
-            <button
-              class="nav-link"
-              id="contact-tab"
-              data-bs-toggle="tab"
-              data-bs-target="#buku-praktek"
-              type="button"
-              role="tab"
-              aria-controls="buku-praktek"
-              aria-selected="false"
-            >
-              <p>BUKU PRAKTEK</p>
-            </button>
-            <button
-              class="nav-link"
-              id="contact-tab"
-              data-bs-toggle="tab"
-              data-bs-target="#soal-soal"
-              type="button"
-              role="tab"
-              aria-controls="soal-soal"
-              aria-selected="false"
-            >
-              <p>SOAL - SOAL</p>
-            </button>
-            <button
-              class="nav-link"
-              id="contact-tab"
-              data-bs-toggle="tab"
-              data-bs-target="#buku-latihan-ujian"
-              type="button"
-              role="tab"
-              aria-controls="buku-latihan-ujian"
-              aria-selected="false"
-            >
-              <p>LATIHAN</p>
-            </button>
+              <button
+                class="nav-link active"
+                id="home-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#buku-1000-soal"
+                type="button"
+                role="tab"
+                aria-controls="buku-1000-soal"
+                aria-selected="true"
+              >
+                <p>BUKU 1000 SOAL</p>
+              </button>
+              <button
+                class="nav-link"
+                id="profile-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#buku-materi"
+                type="button"
+                role="tab"
+                aria-controls="buku-materi"
+                aria-selected="false"
+              >
+                <p>BUKU MATERI</p>
+              </button>
+              <button
+                class="nav-link"
+                id="contact-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#buku-praktek"
+                type="button"
+                role="tab"
+                aria-controls="buku-praktek"
+                aria-selected="false"
+              >
+                <p>BUKU PRAKTEK</p>
+              </button>
+              <button
+                class="nav-link"
+                id="contact-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#soal-soal"
+                type="button"
+                role="tab"
+                aria-controls="soal-soal"
+                aria-selected="false"
+              >
+                <p>SOAL - SOAL</p>
+              </button>
+              <button
+                class="nav-link"
+                id="contact-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#buku-latihan-ujian"
+                type="button"
+                role="tab"
+                aria-controls="buku-latihan-ujian"
+                aria-selected="false"
+              >
+                <p>LATIHAN</p>
+              </button>
+            </div>
           </div>
           <!-- ISI BUKU BUKU -->
           <div class="tab-content" id="myTabContent">
