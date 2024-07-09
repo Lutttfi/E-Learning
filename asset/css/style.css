@@ -37,6 +37,10 @@ nav {
   height: 5px;
 } */
 
+.carousel img {
+  max-height: 300px;
+}
+
 @media (max-width: 768px) {
   .carousel {
     margin: 10% 15%;
@@ -93,9 +97,6 @@ nav {
 
   .carousel {
     margin: 5% 15%;
-  }
-  .carousel img {
-    max-height: 300px;
   }
 
   .text p:first-child {
