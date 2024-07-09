@@ -8,3 +8,12 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+// document.querySelectorAll(".nav-link").forEach((button) => {
+//   button.addEventListener("click", function () {
+//     document
+//       .querySelectorAll(".nav-link")
+//       .forEach((btn) => btn.classList.remove("active"));
+//     this.classList.add("active");
+//   });
+// });

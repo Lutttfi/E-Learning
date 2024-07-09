@@ -14,7 +14,8 @@ body {
   border-bottom: 2px solid transparent;
 }
 .nav-link.active {
-  border-bottom: 2px solid #cfa81b;
+  border-bottom: 2px solid #39d425;
+  color: #39d425;
 }
 #myTab {
   -ms-overflow-style: none; /* IE and Edge */
