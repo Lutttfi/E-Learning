@@ -20,57 +20,6 @@ a.btn.rounded-pill {
   margin-bottom: 5px;
 }
 
-@media (max-width: 768px) {
-  main {
-    margin: 80px 0;
-  }
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
-  main {
-    margin: 10% 0;
-  }
-
-  p {
-    font-size: 24px;
-  }
-
-  .t-h {
-    font-size: 32px;
-  }
-}
-
-@media (min-width: 1025px) {
-  main {
-    margin: 8% 0;
-  }
-
-  p {
-    font-size: 36px;
-  }
-
-  .t-h {
-    font-size: 42px;
-  }
-
-  a.btn.rounded-pill {
-    font-size: 36px;
-  }
-
-  p.profesi {
-    font-size: 50px;
-  }
-
-  nav div a {
-    font-size: 24px;
-  }
-
-  button.btn-offcanvas p {
-    font-size: 36px;
-    margin-bottom: 0;
-  }
-}
-
 /*  */
 .todo-timeline {
   margin-top: 75px;
@@ -149,5 +98,62 @@ a.btn.rounded-pill {
         background: #818820;
       }
     }
+  }
+}
+
+@media (max-width: 768px) {
+  main {
+    margin: 80px 0;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  main {
+    margin: 10% 0;
+  }
+
+  p {
+    font-size: 24px;
+  }
+
+  .t-h {
+    font-size: 32px;
+  }
+}
+
+@media (min-width: 1025px) {
+  main {
+    margin: 6% 0;
+  }
+
+  p {
+    font-size: 36px;
+  }
+
+  .t-h {
+    font-size: 42px;
+  }
+
+  a.btn.rounded-pill {
+    font-size: 36px;
+  }
+
+  p.profesi {
+    font-size: 50px;
+  }
+
+  nav div a {
+    font-size: 24px;
+  }
+
+  button.btn-offcanvas p {
+    font-size: 36px;
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 2560px) {
+  nav div a {
+    font-size: 36px;
   }
 }

@@ -117,4 +117,13 @@ header {
     width: 140px;
     height: 70px;
   }
+  nav div a {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 2560px) {
+  nav div a {
+    font-size: 36px;
+  }
 }

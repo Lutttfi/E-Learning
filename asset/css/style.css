@@ -41,7 +41,7 @@ nav {
     margin: 10% 15%;
   }
 
-  .text p:first-child{
+  .text p:first-child {
     font-size: 24px;
   }
 
@@ -55,7 +55,7 @@ nav {
     margin: 5% 15%;
   }
 
-  .text p:first-child{
+  .text p:first-child {
     font-size: 24px;
   }
 
@@ -91,7 +91,7 @@ nav {
     margin: 5% 15%;
   }
 
-  .text p:first-child{
+  .text p:first-child {
     font-size: 52px;
   }
 
@@ -113,5 +113,11 @@ nav {
 
   nav div a {
     font-size: 24px;
+  }
+}
+
+@media (min-width: 2560px) {
+  nav div a {
+    font-size: 36px;
   }
 }
