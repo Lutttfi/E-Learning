@@ -126,4 +126,8 @@ header {
   nav div a {
     font-size: 36px;
   }
+
+  .btn p {
+    font-size: 24px;
+  }
 }
