@@ -10,7 +10,7 @@ main {
 }
 
 header {
-    background-color: yellow;
+  background-color: yellow;
 }
 
 .akun {
@@ -31,18 +31,18 @@ header {
 }
 
 .gambar i {
+  height: 25px;
+  width: 25px;
   position: absolute;
   bottom: 0;
   right: 0;
   background-color: white;
-  /* border-radius: 50%; */
 }
 
 .foto img {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  /* margin-top: 40px; */
 }
 
 .nama,
@@ -67,11 +67,54 @@ header {
 }
 
 .btn {
-  background-color: rgb(239, 232, 232);
+  /* background-color: rgb(239, 232, 232);
   color: purple;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1), 0px 4px 8px rgba(0, 0, 0, 0.2);
-  width: 80px;
-  height: 40px;
   border: none;
-  border-radius: 40%;
+  border-radius: 40%; */
+  width: 100px;
+  height: 50px;
+}
+
+@media (min-width: 1024px) {
+  .gambar img {
+    width: 85px;
+    height: 85px;
+  }
+  .gambar i {
+    height: 40px;
+    width: 40px;
+  }
+  .nama {
+    font-size: 35px;
+  }
+  .email {
+    text-align: center;
+    font-size: 25px;
+  }
+  .btn {
+    width: 130px;
+    height: 70px;
+  }
+}
+@media (min-width: 1440px) {
+  .gambar img {
+    width: 90px;
+    height: 90px;
+  }
+  .gambar i {
+    height: 40px;
+    width: 40px;
+  }
+  .nama {
+    font-size: 40px;
+  }
+  .email {
+    text-align: center;
+    font-size: 30px;
+  }
+  .btn {
+    width: 140px;
+    height: 70px;
+  }
 }
