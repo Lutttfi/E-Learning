@@ -55,6 +55,9 @@ nav {
   .carousel {
     margin: 5% 15%;
   }
+  .carousel img {
+    max-height: 300px;
+  }
 
   .text p:first-child {
     font-size: 24px;
@@ -90,6 +93,9 @@ nav {
 
   .carousel {
     margin: 5% 15%;
+  }
+  .carousel img {
+    max-height: 300px;
   }
 
   .text p:first-child {
