@@ -76,6 +76,12 @@ header {
   height: 50px;
 }
 
+@media (max-width: 768px) {
+  nav div a {
+    font-size: 12px;
+  }
+}
+
 @media (min-width: 1024px) {
   .gambar img {
     width: 85px;
@@ -94,9 +100,6 @@ header {
   }
   .btn {
     width: 130px;
-  }
-  nav div a {
-    font-size: 24px;
   }
 }
 @media (min-width: 1440px) {
@@ -118,15 +121,9 @@ header {
   .btn {
     width: 140px;
   }
-  nav div a {
-    font-size: 24px;
-  }
 }
 
 @media (min-width: 2560px) {
-  nav div a {
-    font-size: 36px;
-  }
 
   .btn p {
     font-size: 24px;

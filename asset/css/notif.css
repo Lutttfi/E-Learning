@@ -30,6 +30,13 @@ main {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
+@media (max-width: 768px) {
+  nav div a {
+    font-size: 12px;
+  }
+}
+
+
 @media (min-width: 768px) {
   main {
     margin: 55px 0;
@@ -73,9 +80,7 @@ main {
     padding: 0px 25px;
     border-bottom: 6px solid rgba(0, 0, 0, 0.3);
   }
-  nav div a {
-    font-size: 24px;
-  }
+
 }
 
 @media (min-width: 1440px) {
@@ -105,9 +110,7 @@ main {
     padding: 0px 25px;
     border-bottom: 6px solid rgba(0, 0, 0, 0.5);
   }
-  nav div a {
-    font-size: 24px;
-  }
+
 }
 @media (min-width: 2560px) {
   header {
@@ -135,7 +138,4 @@ main {
     border-bottom: 6px solid rgba(0, 0, 0, 0.5);
   }
 
-  nav div a {
-    font-size: 36px;
-  }
 }

@@ -109,6 +109,10 @@ a.btn.rounded-pill {
   .main {
     margin: 65px 10px 5px 10px;
   }
+
+  nav div a {
+    font-size: 12px;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -161,18 +165,9 @@ a.btn.rounded-pill {
     font-size: 36px;
   }
 
-  nav div a {
-    font-size: 24px;
-  }
 
   button.btn-offcanvas p {
     font-size: 24px;
     margin-bottom: 0;
-  }
-}
-
-@media (min-width: 2560px) {
-  nav div a {
-    font-size: 36px;
   }
 }
